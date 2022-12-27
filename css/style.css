@@ -1,33 +1,35 @@
-
-.header{
+.header {
     position: sticky;
     top: 0;
-    background: rgb(1,4,12);
-    background: linear-gradient(90deg, rgba(1,4,12,1) 14%, rgba(248,249,252,1) 100%);
+    background: rgb(1, 4, 12);
+    background: linear-gradient(90deg, rgba(1, 4, 12, 1) 14%, rgba(248, 249, 252, 1) 100%);
     height: 60px;
 }
 
- h1{
+h1 {
     font-size: 50px;
     color: white;
 }
 
-#imagebody{
+#imagebody {
     padding-left: 1px;
     margin: 25px;
     width: 97%;
 }
-.product{
+
+.product {
     width: 100%;
     padding: 2px;
     margin: 24px;
 }
-.products{
+
+.products {
     display: flex;
 }
-.Discount{
-    background: rgb(0,40,33);
-    background: linear-gradient(180deg, rgba(0,40,33,1) 70%, rgba(0,11,11,1) 100%);
+
+.Discount {
+    background: rgb(0, 40, 33);
+    background: linear-gradient(180deg, rgba(0, 40, 33, 1) 70%, rgba(0, 11, 11, 1) 100%);
     /* background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.5,cs_srgb/w_1167,c_limit/ce391e4c-5ccc-48a9-892b-a4d8774dd380/nike-just-do-it.jpg"); */
     border-radius: 159px;
     height: 350px;
@@ -37,23 +39,27 @@
     text-align: center;
     margin: 27px;
     word-spacing: 4px;
-  
-}
-.sale{
-    color: white;
-}
-.sale h4{
-    margin: -11px;
-   font-weight: 900;
-    font-size: 72px;
-    letter-spacing: -11px;
-    font-family: "Nike Futura","Helvetica Neue",Helvetica,Arial,sans-serif;
 
 }
-#Javidcombin .sale  h4{
+
+.sale {
+    color: white;
+}
+
+.sale h4 {
+    margin: -11px;
+    font-weight: 900;
+    font-size: 72px;
+    letter-spacing: -11px;
+    font-family: "Nike Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+#Javidcombin .sale h4 {
     letter-spacing: -6px;
-} 
-#shopb{
+}
+
+#shopb {
     padding: 6px 47px;
     line-height: 90px;
     text-decoration: none;
@@ -62,11 +68,12 @@
     background-color: white;
     color: black;
 }
-.Javid{
-    background: rgb(1,5,17);
-    background: linear-gradient(5deg, rgba(1,5,17,1) 14%, rgba(18,73,221,1) 100%, rgba(248,249,252,1) 100%);
-border-radius: 100px;    
-color: white;
+
+.Javid {
+    background: rgb(1, 5, 17);
+    background: linear-gradient(5deg, rgba(1, 5, 17, 1) 14%, rgba(18, 73, 221, 1) 100%, rgba(248, 249, 252, 1) 100%);
+    border-radius: 100px;
+    color: white;
     height: 350px;
     display: flex;
     justify-content: center;
@@ -75,9 +82,42 @@ color: white;
     margin: 27px;
     word-spacing: 4px;
 }
-.products button{
-background-color: white;
-width: 72px;
-height: 28px;
-margin-left: 207px;
+
+.products button {
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: white;
+    width: 72px;
+    height: 28px;
+    position: relative;
+    left: 132px;
+}
+
+.product button:hover {
+    background-color: #AF0503;
+}
+
+.product .butshop:hover {
+    background: rgb(0, 40, 33);
+    background: linear-gradient(180deg, rgba(0, 40, 33, 1) 70%, rgba(0, 11, 11, 1) 100%);
+}
+
+#nikelogo {
+    display: inline;
+    position: relative;
+    bottom: 109px;
+    left: 140px;
+    width: 80px;
+}
+
+.Discountsale #nikelogo {
+    left: 200px;
+}
+
+#Clothes #nikelogo {
+    left: 175px;
+}
+
+#Javidcombin #nikelogo {
+    left: 105px;
 }
